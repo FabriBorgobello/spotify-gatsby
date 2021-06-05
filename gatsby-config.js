@@ -8,12 +8,14 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-postcss",
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: { google: { families: ["Raleway"] } },
+    },
     {
       resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
+      options: { name: "images", path: "./src/images/" },
       __key: "images",
     },
   ],
