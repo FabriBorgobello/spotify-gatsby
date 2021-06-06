@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 const Footer = () => {
   return (
-    <footer className="bg-black text-white pt-20 pb-5">
+    <footer className="bg-black text-white py-20">
       <nav className="mx-auto w-10/12">
         <div className="w-full flex">
           <div className="w-1/6 ">
